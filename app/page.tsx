@@ -7,8 +7,8 @@ import { RedirectToHome } from "./components/Redirect";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "frames.js starter",
-    description: "This is a frames.js starter template",
+    title: "Devcon Frame",
+    description: "Devcon Frame by limone.eth",
     other: {
       ...(await fetchMetadata(new URL("/frames", appURL()))),
     },
